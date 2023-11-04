@@ -1,32 +1,32 @@
 package schoolmainclass;
 class Student {
-    private String FirstName;
-    private String LastName;
-    private String StudentID;
-    private double Grades;
+
     
-public Student(String FirstName, String LastName, String StudentID, double Grades){
-    this.FirstName = FirstName;
-    this.LastName = LastName;
-    this.StudentID = StudentID;
-    this.Grades = Grades;
+private String firstName;
+private String lastName;
+private String studentID;
+private double grades;
+
+public Student(String fname, String lname, String sid, double marks) {
+    this.firstName = fname;
+    this.lastName = lname;
+    this.studentID = sid;
+    this.grades = marks;
 }
 
-    
-    public String getFirstName(){
-        return FirstName;
-    }
-    
-    public String getLastName(){
-        return LastName;
-    }
-    
-    public String getStudentID(){
-        return StudentID;
-    }
-    
-    public double getGrades(){
-     return Grades;
-    }
+public String getFirstName() {
+    return firstName;
+}
 
+public String getLastName() {
+    return lastName;
+}
+
+public String getStudentID() {
+    return studentID;
+}
+
+public double getGrades() {
+    return grades;
+}
 }
